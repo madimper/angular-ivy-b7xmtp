@@ -1,0 +1,13 @@
+<div>
+  <button (click)="getcomments()">call</button>
+  <table>
+    <tr *ngFor="let comm of comments">
+      <td>{{comm.postid}}</td>
+      <td>{{comm.id}}</td>
+      <td>{{comm.name}}</td>
+      <td>{{comm.body}}</td>
+    </tr>
+  </table> 
+
+ 
+</div>
